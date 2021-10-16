@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+account_name=$(git config user.name)
+
+open https://github.com/$account_name
